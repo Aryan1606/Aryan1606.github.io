@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century Gothic;
+}
+header{
+    background-image: url(../img1.jpg) ;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 55px;
+    display: flex;
+    font-size: 20px;
+    
+    
+}
+ul li{
+    margin-left: 10px;
+    margin-right: 15PX;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.8s ease;
+    
+}
+ul li a:hover {
+    background-color: white;
+    color: black;
+}
+.logo img{
+    margin-left: 10px;
+    float: left;
+    width: 150px;
+    height: auto;
+     
+}
+
+.main{
+    max-width: 100%;
+    margin: auto;
+    
+}
+ul li.active a{
+     background-color: white;
+    color: black; 
+}
+.overlay{
+    width: 100%;
+    
+    height: 100vh;
+    opacity: .0;
+    position: absolute;
+    background: #000;
+}
+.title{
+    position: absolute;
+    top: 35%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: black;
+    font-size: 60px;
+}
+.button{
+    position: absolute;
+    top: 51%;
+    left: 49%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: black;
+    text-decoration: none;
+    transition: 0.6s ease;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}

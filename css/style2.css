@@ -1,0 +1,88 @@
+*{
+margin: 0;
+padding: 0;
+    font-family: Century Gothic;
+}
+.box{
+    background: linear-gradient(rgba(100,22,229,0.8),rgba(1000,221,22,0.7)), url(../img8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.box2{
+    background: linear-gradient(rgba(0,221,229,0.8),rgba(0,221,229,0.7)), url(../img9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 55px;
+    display: flex;
+    font-size: 20px;
+    
+    
+}
+ul li{
+   
+    margin-right: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.8s ease;
+    
+}
+ul li a:hover {
+    background-color: white;
+    color: black;
+}
+ul li.active a{
+     background-color: white;
+    color: black; 
+}
+
+.tagline{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    font-size: 7rem;
+    color: #fff;
+}
+p{
+    font-size: 2rem;
+    text-align: center;
+    color: #ddd;
+}
+.mbtn{
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    left: 65%;
+    padding: 20px 5%;
+    color: #fff;
+    font-weight: 900;
+    text-align: center;
+    border-radius: 50px;
+    background-size: 200% auto;
+    margin: 10px;
+    font-size: 20px;
+    box-shadow: 0 0 10px #000;
+    transition: .5s;
+}
+.btn-grad {
+    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
+}
+.btn-grad:hover{
+    background-position: right center;
+}
