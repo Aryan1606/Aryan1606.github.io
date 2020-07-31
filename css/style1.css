@@ -46,7 +46,7 @@ ul li.active a{
 }
 .head{
     position: absolute;
-    top: 10%;
+    top: 8%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -57,10 +57,10 @@ ul li.active a{
      display: block;
     margin: auto;
     width: 160px;
-    height: 3px;
+    height: 30px;
     background: #3498db;
     margin-bottom: 40px;
-    margin-top: 11%;
+    margin-top: 12%;
     
 }
 
